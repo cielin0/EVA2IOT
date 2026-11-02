@@ -1,0 +1,52 @@
+# Gradle y Android
+*.iml
+.gradle/
+/build/
+*/build/
+**/build/
+local.properties
+.idea/
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ESP32 / Arduino / PlatformIO / ESP-IDF
+.pio/
+.pioenvs/
+.piolibdeps/
+.clangd/
+sdkconfig
+sdkconfig.old
+*.bin
+*.elf
+
+# Claves, certificados, credenciales y contraseñas
+*.jks
+*.keystore
+*.key
+*.pem
+*.p12
+*.pfx
+*.pkcs12
+*.crt
+*.der
+*.csr
+*credential*
+*credentials*
+*secret*
+*secrets*
+*password*
+*passwords*
+.env
+.env.*
+!.env.example
+google-services.json
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*~
+.vscode/
